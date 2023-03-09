@@ -186,3 +186,131 @@ footer{
     color: 
     #4C545C;
 }
+@media(min-width:1440px){
+    body{
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+    }
+    .px32{
+        line-height: 57.5px;
+        letter-spacing: -0.75px;
+        width: 730px;
+        font-size: 46px;
+    }
+    .px28{
+        font-size: 36px;
+        letter-spacing: -0.59px;
+        line-height: 45px; 
+        width: 730px;
+    }
+    .px24{
+        font-size: 24px;
+        letter-spacing: -0.39px;
+        line-height: 30px;  
+        width: 350px;
+    }
+    p{
+        width: 730px;
+        font-size: 18px;
+        letter-spacing: 0.15px;
+        line-height: 30px;  
+        text-align: center;
+        color: #9EABB2;
+    }
+    .firstdivp{
+        font-size: 20px;
+    }
+    .forbuttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .firstbutton, .secondbutton{
+        width: 227px;
+    }
+    .firstbutton:hover{
+        cursor: pointer;
+    }
+    .secondbutton:hover{
+        cursor: pointer;
+    }
+    .tv{
+        width: 752px;
+        height: 572px;
+        position: relative;
+        right: 380px;
+    }
+    .fordesktop{
+        position: relative;
+        bottom: 586px;
+        left: 275px;
+    }
+    .px24{
+        text-align: left;
+    }
+    .p1{
+        line-height: 30px;
+        text-align: left;
+        letter-spacing: 0.12px;
+        width: 350px;
+        font-size: 16px;
+    }
+    .bigtv{
+        margin-top: 0px;
+    }
+    .secondtv{
+        width: 812px;
+        height: 475px;
+        margin-bottom: 16px;
+    }
+    .threedivs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .threedivsp{
+        width: 350px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.12px;
+        color: rgba(158, 171, 178, 1);
+
+    }
+    .px24{
+        text-align: center;
+    }
+    .logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap:0px;
+    }
+    .logos1{
+        width: 165px;
+    }
+    .logos2{
+        width: 160px;
+    }
+    .logos3{
+        width: 140px;
+    }
+    .logos4{
+        width: 140px;
+    }
+    .logos5{
+        width: 140px;
+    }
+    .footersdiv{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer3logos{
+        display: flex;
+        gap: 25px;
+        padding-inline-start: 518px;
+    }
+    h2{
+       gap:20px; 
+    }
+}
