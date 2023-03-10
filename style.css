@@ -342,15 +342,17 @@ footer{
 
     .forcenter{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
         gap: 30px;
         margin-left: 60px;
         padding-bottom: 20px;
+        text-align: left;
        
     }
     .forspace{
         padding-bottom: 16px;
+        text-align: left;
+
     }
     .forspace2{
         padding-bottom: 28px;
