@@ -173,6 +173,22 @@ footer{
     height: 55px;
     padding-bottom: 44px;
 }
+.forcenter{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.forspace{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer3logos{
+    display: flex;
+    gap: 32px;
+    padding-top: 26px;
+    align-items: center;
+   
+}
 .footersdiv{
     width: 100%;
     height: 500px;
@@ -301,16 +317,47 @@ footer{
     .logos5{
         width: 140px;
     }
+    footer{
+        height: 200px;
+    }
+    .footerslogo{
+        padding-bottom: 28px;
+    }
     .footersdiv{
         display: flex;
         flex-direction: row;
+        height: 200px;
     }
     .footer3logos{
         display: flex;
         gap: 25px;
         padding-inline-start: 518px;
     }
-    h2{
+    h2:hover{
        gap:20px; 
+       color:
+       rgba(38, 187, 164, 1);
+       cursor: pointer;
     }
+
+    .forcenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-left: 60px;
+        padding-bottom: 20px;
+       
+    }
+    .forspace{
+        padding-bottom: 16px;
+    }
+    .forspace2{
+        padding-bottom: 28px;
+    }
+    .forhover path:hover {
+        cursor: pointer;
+        fill:#26BBA4;
+    }
+    
 }
